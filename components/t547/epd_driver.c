@@ -140,7 +140,7 @@ void epd_push_pixels(Rect_t area, short time, int color)
 
 void epd_clear_area(Rect_t area)
 {
-    epd_clear_area_cycles(area, 4, 50);
+    epd_clear_area_cycles(area, EPD_CLEAR_CYCLES, 50);
 }
 
 void epd_clear_area_cycles(Rect_t area, int cycles, int cycle_time)

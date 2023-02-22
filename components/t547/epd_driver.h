@@ -19,7 +19,7 @@ extern "C" {
 #define EPD_HEIGHT 540
 
 // How many cycles to clear display (default: 4)
-#define EPD_CLEAR_CYCLES 1
+#define EPD_CLEAR_CYCLES 2
 
 
 /// An area on the display.
